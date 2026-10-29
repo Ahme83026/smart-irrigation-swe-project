@@ -1,11 +1,5 @@
 # Interview Questions – External Stakeholders
 
-**Project:** Smart Irrigation Water Allocation System
-**Deliverable:** #2 – Preliminary Activity: Stakeholder Role-Playing
-**Prepared by:** Ammar Mohamed Nabil (System Analyst, Group #1)
-**Session:** 29 October 2026
-**Analysts (Group #1):** Ahmed, Ammar
-**Users/Stakeholders (Group #2):** Khaled (plays each stakeholder)
 
 ## Purpose
 
@@ -15,7 +9,7 @@ These questions guide the simulated requirements elicitation session. For each e
 - **Needs and goals:** what they want to achieve
 - **Expected interactions:** how they expect to use or connect to the system
 
-The questions for the internal stakeholders (Gatekeeper, Office Clerk, Farmers, Canal Engineer, Association Head) are prepared by Ahmed.
+The questions for the internal stakeholders (Gatekeeper, Office Clerk, Farmers, Canal Engineer, Association Head).
 
 ---
 
