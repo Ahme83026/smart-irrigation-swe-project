@@ -52,17 +52,17 @@
 13. The seasonal share is entered at the start of each season, and quotas are recalculated if it changes. *(Water Authority)*
 
 **Gates and alerts**
-14. The status of every gate can be seen at any time, and gates open and close on time. *(Gatekeeper)*
+14. The status of every gate can be seen at any time, and gates open and close on time. 
 15. Gate commands outside a scheduled turn need the engineer's approval, and gates cannot open past a safe limit. *(Canal Engineer, Gatekeeper, Vendor)*
 16. Immediate phone alerts, day or night: gate faults go to the gatekeeper, and high flow and suspected illegal tapping go to the engineer. *(Gatekeeper, Canal Engineer)*
 17. Fault reports show the gate, time, fault type and last reading, with few false alarms. *(Vendor)*
 18. Gates keep their last schedule if the connection is lost. *(Canal Engineer, Vendor)*
 
 **Notifications**
-19. Farmers get SMS messages about their turns at least a week ahead, any changes, and their remaining water. *(Farmers)*
-20. Farmers are warned when their soil is too dry and told when they can skip a turn. *(Farmers)*
-21. Failed messages are found through delivery reports and sent again, and the system can receive farmers' SMS replies. *(SMS Provider)*
-22. Older farmers are told by phone call or a mosque announcement. *(Farmers, Association Head)*
+19. Farmers get SMS messages about their turns at least a week ahead, any changes, and their remaining water. 
+20. Farmers are warned when their soil is too dry and told when they can skip a turn. 
+21. Failed messages are found through delivery reports and sent again, and the system can receive farmers' SMS replies. 
+22. Older farmers are told by phone call or a mosque announcement. 
 
 **Fairness, fees and reports**
 23. A weekly report in summer compares the water received at the start, middle and end of the canal. *(Association Head, Farmers)*
