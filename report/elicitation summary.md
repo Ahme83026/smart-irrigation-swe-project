@@ -1,15 +1,10 @@
 # Requirements Elicitation Session Summary
 
-**Project:** Smart Irrigation Water Allocation System
-**Deliverable:** #2 – Preliminary Activity: Stakeholder Role-Playing
-**Date:** 29 October 2026
 
 ## Session setup
 
 - **Group #1 – System Analysts:** Ahmed Hossam and Ammar Mohamed Nabil
 - **Group #2 – Users/Stakeholders:** Khaled Elsayed Elsayegh, who played each stakeholder from Deliverable #1
-
-Ahmed asked the questions for the internal stakeholders while Ammar took notes. For the external stakeholders, they switched roles: Ammar asked the questions and Ahmed took notes.
 
 ## Stakeholder roles represented
 
