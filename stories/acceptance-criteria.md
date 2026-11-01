@@ -1,9 +1,5 @@
 # Part I – User Stories
 
-## 2. Define Acceptance Criteria
-
-Each acceptance criterion uses the Given–When–Then format: **Given** is the context or precondition, **When** is the action that is carried out, and **Then** is the observable outcome and expected result. **And** adds a further expected result.
-
 ### US01 – Book irrigation turns at times the farmer can irrigate
 
 **AC1**
