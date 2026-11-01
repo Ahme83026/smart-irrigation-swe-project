@@ -2,34 +2,183 @@
 
 ## 2. Define Acceptance Criteria
 
-| Story | AC | Given | When | Then |
-| --- | --- | --- | --- | --- |
-| US01 | AC1 | A farmer has remaining quota and has given his preferred and blocked slots | He books a turn in one of his preferred daytime slots | The turn is assigned to him and the confirmed day and time are shown |
-| US01 | AC2 | A night slot is one of the farmer's blocked slots | The schedule is assigned | That slot is not given to him |
-| US01 | AC3 | The farmer's quota for the season is used up | He tries to book a turn | The booking is refused and his remaining quota is shown as zero |
-| US02 | AC1 | A farmer who uses SMS has a turn assigned | The weekly schedule is fixed, at least one week before the turn | He receives an SMS with the day, time and gate number of his turn |
-| US02 | AC2 | The farmer's turn is changed after the SMS was sent | The schedule is updated | He receives a new SMS with the changed turn |
-| US02 | AC3 | The farmer has added a family member as a second contact | The SMS is sent | The family member receives the same SMS |
-| US03 | AC1 | A farmer is at the office and the slot he wants is free | The clerk books the slot for him | The turn is saved for that farmer and the slot is no longer shown as free |
-| US03 | AC2 | The slot is already booked by another farmer | The clerk tries to book it | The booking is rejected and the other free slots are shown |
-| US03 | AC3 | The farmer has unpaid fees for more than one season | The clerk tries to book a turn for him | The booking is refused and the reason is shown |
-| US04 | AC1 | A gate reports a fault | The system receives the report | The gatekeeper gets a phone alert with the gate number, its location and the fault type |
-| US04 | AC2 | The fault happens at night | The report is received | The alert is sent immediately and is not held until the morning |
-| US04 | AC3 | A faulty gate has been repaired | The gate reports that it is working again | The alert is closed and the gate is shown as working |
-| US05 | AC1 | A gate command does not match any scheduled turn | The command is sent | The gate does not move until the canal engineer approves it |
-| US05 | AC2 | A command is waiting for approval | The canal engineer approves it | The command is sent to the gate and recorded with his name and the time |
-| US05 | AC3 | A command is waiting for approval | The canal engineer rejects it | The command is cancelled and the person who requested it is told |
-| US06 | AC1 | A week in the summer season has ended | The weekly report is produced | It shows the water received against the need for the start, middle and end of the canal |
-| US06 | AC2 | In a dry month, some farmers received less than 80% of their need | The report is produced | Those farmers are highlighted in the report |
-| US06 | AC3 | The report is shown to farmers | It is printed or displayed | Each share is shown as a percentage of need and no land sizes appear |
-| US07 | AC1 | Two bookings clash on the same gate and time | The association head moves one of them to a free slot | Both farmers keep a turn and the moved farmer is told about the new time |
-| US07 | AC2 | No free slot is left on that day | The association head tries to move a booking | The free slots on the following days are shown instead |
-| US08 | AC1 | A gate or sensor reports a fault | The fault is recorded | The record shows the device, the time, the fault type and the last reading |
-| US08 | AC2 | A device sends one unusual reading | The reading is received | No fault is raised unless the next reading confirms it |
-| US09 | AC1 | A message has been sent to a farmer | The provider reports that it was not delivered | The failure is recorded and the message is sent again |
-| US09 | AC2 | A resent message fails again | The second failure is reported | The farmer is flagged so the clerk can check his phone number |
-| US10 | AC1 | A month in the summer season has ended | The canal engineer generates the compliance report | It shows the water used, the allocation policy applied and the crops planted |
-| US10 | AC2 | A plot is planted with rice this summer | The report is generated | The plot is shown with no water allocated |
-| US10 | AC3 | The Ministry has approved an exception in writing | The report is generated | The exception is listed with who approved it and the date |
-| US11 | AC1 | The seasonal share has been entered and the canal engineer has set the warning level as a percentage of it | The water used reaches that level | The canal engineer is warned with the water used so far and the amount remaining |
-| US11 | AC2 | The Water Authority changes the seasonal share during the season | The new share is entered | The warning level is recalculated using the new share |
+Each acceptance criterion uses the Given–When–Then format: **Given** is the context or precondition, **When** is the action that is carried out, and **Then** is the observable outcome and expected result. **And** adds a further expected result.
+
+### US01 – Book irrigation turns at times the farmer can irrigate
+
+**AC1**
+- **Given:** a farmer has remaining quota and has given his preferred and blocked slots
+- **When:** he books a turn in one of his preferred daytime slots
+- **Then:** the turn is assigned to him
+- **And:** the confirmed day and time are shown
+
+**AC2**
+- **Given:** a night slot is one of the farmer's blocked slots
+- **When:** the schedule is assigned
+- **Then:** that slot is not given to him
+
+**AC3**
+- **Given:** the farmer's quota for the season is used up
+- **When:** he tries to book a turn
+- **Then:** the booking is refused
+- **And:** his remaining quota is shown as zero
+
+### US02 – Receive turn times by SMS a week ahead
+
+**AC1**
+- **Given:** a farmer who uses SMS has a turn assigned
+- **When:** the weekly schedule is fixed, at least one week before the turn
+- **Then:** he receives an SMS with the day, time and gate number of his turn
+
+**AC2**
+- **Given:** the farmer's turn is changed after the SMS was sent
+- **When:** the schedule is updated
+- **Then:** he receives a new SMS with the changed turn
+
+**AC3**
+- **Given:** the farmer has added a family member as a second contact
+- **When:** the SMS is sent
+- **Then:** the family member receives the same SMS
+
+### US03 – Book turns at the office without double bookings
+
+**AC1**
+- **Given:** a farmer is at the office and the slot he wants is free
+- **When:** the clerk books the slot for him
+- **Then:** the turn is saved for that farmer
+- **And:** the slot is no longer shown as free
+
+**AC2**
+- **Given:** the slot is already booked by another farmer
+- **When:** the clerk tries to book it
+- **Then:** the booking is rejected
+- **And:** the other free slots are shown
+
+**AC3**
+- **Given:** the farmer has unpaid fees for more than one season
+- **When:** the clerk tries to book a turn for him
+- **Then:** the booking is refused
+- **And:** the reason is shown
+
+### US04 – Alert the gatekeeper when a gate fails
+
+**AC1**
+- **Given:** a gate reports a fault
+- **When:** the system receives the report
+- **Then:** the gatekeeper gets a phone alert with the gate number, its location and the fault type
+
+**AC2**
+- **Given:** the fault happens at night
+- **When:** the report is received
+- **Then:** the alert is sent immediately
+- **And:** it is not held until the morning
+
+**AC3**
+- **Given:** a faulty gate has been repaired
+- **When:** the gate reports that it is working again
+- **Then:** the alert is closed
+- **And:** the gate is shown as working
+
+### US05 – Approve gate commands outside a scheduled turn
+
+**AC1**
+- **Given:** a gate command does not match any scheduled turn
+- **When:** the command is sent
+- **Then:** the gate does not move until the canal engineer approves it
+
+**AC2**
+- **Given:** a command is waiting for approval
+- **When:** the canal engineer approves it
+- **Then:** the command is sent to the gate
+- **And:** it is recorded with his name and the time
+
+**AC3**
+- **Given:** a command is waiting for approval
+- **When:** the canal engineer rejects it
+- **Then:** the command is cancelled
+- **And:** the person who requested it is told
+
+### US06 – Weekly fairness report
+
+**AC1**
+- **Given:** a week in the summer season has ended
+- **When:** the weekly report is produced
+- **Then:** it shows the water received against the need for the start, middle and end of the canal
+
+**AC2**
+- **Given:** in a dry month, some farmers received less than 80% of their need
+- **When:** the report is produced
+- **Then:** those farmers are highlighted in the report
+
+**AC3**
+- **Given:** the report is shown to farmers
+- **When:** it is printed or displayed
+- **Then:** each share is shown as a percentage of need
+- **And:** no land sizes appear
+
+### US07 – Move clashing bookings
+
+**AC1**
+- **Given:** two bookings clash on the same gate and time
+- **When:** the association head moves one of them to a free slot
+- **Then:** both farmers keep a turn
+- **And:** the moved farmer is told about the new time
+
+**AC2**
+- **Given:** no free slot is left on that day
+- **When:** the association head tries to move a booking
+- **Then:** the free slots on the following days are shown instead
+
+### US08 – Record device faults with details
+
+**AC1**
+- **Given:** a gate or sensor reports a fault
+- **When:** the fault is recorded
+- **Then:** the record shows the device, the time, the fault type and the last reading
+
+**AC2**
+- **Given:** a device sends one unusual reading
+- **When:** the reading is received
+- **Then:** no fault is raised unless the next reading confirms it
+
+### US09 – Act on SMS delivery reports
+
+**AC1**
+- **Given:** a message has been sent to a farmer
+- **When:** the provider reports that it was not delivered
+- **Then:** the failure is recorded
+- **And:** the message is sent again
+
+**AC2**
+- **Given:** a resent message fails again
+- **When:** the second failure is reported
+- **Then:** the farmer is flagged so the clerk can check his phone number
+
+### US10 – Monthly compliance report for the Ministry
+
+**AC1**
+- **Given:** a month in the summer season has ended
+- **When:** the canal engineer generates the compliance report
+- **Then:** it shows the water used, the allocation policy applied and the crops planted
+
+**AC2**
+- **Given:** a plot is planted with rice this summer
+- **When:** the report is generated
+- **Then:** the plot is shown with no water allocated
+
+**AC3**
+- **Given:** the Ministry has approved an exception in writing
+- **When:** the report is generated
+- **Then:** the exception is listed with who approved it and the date
+
+### US11 – Warning near the seasonal share
+
+**AC1**
+- **Given:** the seasonal share has been entered and the canal engineer has set the warning level as a percentage of it
+- **When:** the water used reaches that level
+- **Then:** the canal engineer is warned with the water used so far and the amount remaining
+
+**AC2**
+- **Given:** the Water Authority changes the seasonal share during the season
+- **When:** the new share is entered
+- **Then:** the warning level is recalculated using the new share
