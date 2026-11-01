@@ -1,9 +1,4 @@
-# Part I.1 – User Stories
-
-**Project:** Smart Irrigation Water Allocation System
-**Deliverable:** #2 – User Stories and Use Cases
-
-The user stories below are based on the needs identified in the requirements elicitation session. Each story follows the template *"As a [role], I want to [goal], so that [benefit]."* The stories cover the four stakeholder categories from Deliverable #1, with at least two stories for each category.
+ User Stories
 
 | ID | Category | Role | User Story |
 | --- | --- | --- | --- |
