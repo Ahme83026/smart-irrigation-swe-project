@@ -2,8 +2,6 @@
 
 ## 1. Identify and Formulate User Stories
 
-Each user story follows the template "As a \<role\> I want to \<goal\> so that \<benefit\>", where the role answers **Who?**, the goal answers **What?** and the benefit answers **Why?**
-
 ### US01 – Internal Operational
 
 **User Story:** As a farmer, I want to book my irrigation turns at times I am able to irrigate, so that I am not given turns at night.
