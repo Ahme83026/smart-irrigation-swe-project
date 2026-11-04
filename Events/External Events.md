@@ -112,7 +112,7 @@
 
 ## 5. Sensor failure
 
-- **Detailed Description:** 
+- **Detailed Description:** smart sensors don't read properly soil moisture
 
 - **Entitiy state changed:** sensor
 
