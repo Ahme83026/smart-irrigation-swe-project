@@ -74,11 +74,11 @@
 
 - **Detailed Description:** a dry month occurred
 
-- **Entitiy state changed:** Season (for now, tbd)
+- **Entitiy state changed:** total seasonal water
 
 - **State change:** total available water of the season is reduced due to dry month
 
-- **Triggered use cases:** tbd
+- **Triggered use cases:** apply ministry policy
 
 ## 2. Internet Outage
 
@@ -94,7 +94,7 @@
 
 - **Detailed Description:** the water demand is more than the supplied amount at the start of a season
 
-- **Entitiy state changed:** Season (for now, tbd)
+- **Entitiy state changed:** water demand
 
 - **State change:** total available water of the season is limited
 
