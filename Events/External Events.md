@@ -1,5 +1,13 @@
 # External Events
 
+## 1. Local Farmer wants to register his corps
+
+-  **Detailed description:** 
+  
+-  **Responsible actor:** Local Farmer
+  
+-  **Triggered use cases:** 
+
 ## 1. Local Farmer changes his contact details
 
 -  **Detailed description:** after already registering in the system, a farmer at some point in time might wanna change his contact details as phone number or acc
@@ -38,7 +46,7 @@
 
 ## 1. New Quota Calculation
 
-- **Detailed Description:** At the start of each season, the water needed for specific crops and the quotas are calculated
+- **Detailed Description:** At the start of each season, the water needed for the crop, area, soil type, and expected weather are calculated
 
 - **Time:** At the start of a new season
 
