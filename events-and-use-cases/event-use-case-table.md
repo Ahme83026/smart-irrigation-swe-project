@@ -8,10 +8,10 @@
 |E04 | Turns are assigned to local farmers | External | Assosciation head / Local farmer |Assign turns to local farmers |
 |E05 | Water authority gives total seasonal water | External | Water Authority |Give total available seasonal water |
 |E06 | Local Farmer wants to choose slot | External | Local farmer |Book irrigation turn |
-|E07 | New Quota Calculation | Temporal | At the start of a new season |Calculate season quota |
+|E07 | New Quota Calculation | Include | At the start of a new season |Calculate season quota |
 |E08 | Local farmers are informed of new seasonal quota | Temporal | At the start of a new season |Notify local farmers their seasonal quota |
-|E09 | Local Farmer exceeds quota | Temporal | At the end of each season |Check used quota by local farmer |
-|E10 | Local Farmer saved quota | Temporal | At the end of each season |Check used quota by local farmer |
+|E09 | Local Farmer exceeds quota | State | At the end of each season |Check used quota by local farmer |
+|E10 | Local Farmer saved quota | State | At the end of each season |Check used quota by local farmer |
 |E11 | Water passing on plots | Temporal | During every turn (maybe every hour not specified) |skip wet plot |
 |E12 | Schedule conflict | State | Schedule |Negotiate with local farmer |
 |E13 | Dry month | State | Total seasonal water / total available water of the season is reduced due to dry month |Apply ministry policy |
