@@ -12,7 +12,7 @@
 |E08 | Local farmers are informed of new seasonal quota | Temporal | At the start of a new season |Notify local farmers their seasonal quota |
 |E09 | Local Farmer exceeds quota | State | At the end of each season |Check used quota by local farmer |
 |E10 | Local Farmer saved quota | State | At the end of each season |Check used quota by local farmer |
-|E11 | Water passing on plots | Temporal | During every turn (maybe every hour not specified) |skip wet plot |
+|E11 | Water passing on plots | State | During every turn (maybe every hour not specified) | suggest skip wet plot |
 |E12 | Schedule conflict | State | Schedule |Negotiate with local farmer |
 |E13 | Dry month | State | Total seasonal water / total available water of the season is reduced due to dry month |Apply ministry policy |
 |E14 | Internet Outage | State | Telecom service / application is offline so online booking is unavailable | Allow farmers to book through office |
