@@ -18,7 +18,7 @@
 |E14 | Internet Outage | State | Telecom service / application is offline so online booking is unavailable | Allow farmers to book through office |
 |E15 | Water demand > Supply | State | water demand / total available water of the season is limited | Apply ministry policy |
 |E16 | Smart Gate mulfunctioning | State | Gate / Water isn't delivered or flows in unexpected times | Report gate malfunction |
-|E17 | Sensor failure | State | Sensor / System gets no readings or wrong ones so skip suggestions are false | Report sensor failure |
+|E17 | Soil moisture report | temporal | Sensor / Every hour the sensor reports soil moisture | Report soil moisture |
 
 ### Notes
 
