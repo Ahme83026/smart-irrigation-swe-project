@@ -8,9 +8,9 @@
 |U04| Assign turns to local farmers | The scheduler assigns each farmer irrigation turns depending on preferences and quota |  Association head / Local farmer | Turns are assigned to local farmers |
 |U05| Give total available seasonal water | The Water Authority sends the total water available for the season, which system compares with demand |  Water Authority | Water authority gives total seasonal water |
 |U06| Book irrigation turn | The farmer chooses their preferred slots and which slots they do not want. |  Local farmer | Local Farmer wants to choose slot |
-|U07| Calculate season quota | the system calculates the seasonal quota for the farmers  | tbd  | farmer registered crops |
+|U07| Calculate season quota | the system calculates the seasonal quota for the farmers  | local farmer  | farmer registered crops |
 |U08| Notify local farmers their seasonal quota | the farmers are informed about their seasonal water quota |  Local Farmer | start of new season |
-|U09| Earn priority next season | farmers that save quota earn priority next season | tbd | Local Farmer saved quota |
+|U09| Earn priority next season | farmers that save quota earn priority next season | local farmer | Local Farmer saved quota |
 |U10| Pay fee | farmers that exceed quota pay a fee | tbd | Local Farmer exceeds quota / Local Farmer saved quota |
 |U11| Skip wet plot | the system suggests to skip a turn based on how wet the soil is | Smart Sensors / Local Farmer | Water passing on plots |
 |U12| Negotiate with local farmer | association head negotiates with farmers to move to allow everyone to have an appropriate schedule | Association Head / Local farmer | Schedule conflict |
