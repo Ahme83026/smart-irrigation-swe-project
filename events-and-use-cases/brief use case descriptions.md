@@ -18,3 +18,4 @@
 |U14| Allow farmers to book through office | tbd | Local Farmer | Internet Outage |
 |U15| Report gate malfunction | tbd | Canal Engineer / Gatekeeper | Smart Gate mulfunctioning |
 |U16| Report sensor failure | tbd | IoT Sensor / Smart Gate Vendor | Sensor failure |
+|U17| Report soil moisture | tbd | IoT Sensor / Smart Gate Vendor | Every hour |
