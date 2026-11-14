@@ -10,7 +10,8 @@
 |U06| Book irrigation turn | tbd |  Local farmer | Local Farmer wants to choose slot |
 |U07| Calculate season quota |tbd  | tbd  | Local Farmer wants to choose slot |
 |U08| Notify local farmers their seasonal quota | tbd |  Local Farmer | Local farmers are informed of new seasonal quota |
-|U09| Check used quota by local farmer | tbd | tbd | Local Farmer exceeds quota / Local Farmer saved quota |
+|U09| Earn priority next season | tbd | tbd | Local Farmer saved quota |
+|U10| pay fee | tbd | tbd | Local Farmer exceeds quota / Local Farmer saved quota |
 |U10| Skip wet plot | tbd | Smart Sensors / Local Farmer | Water passing on plots |
 |U11| Negotiate with local farmer | tbd | Assosciation Head / Local farmer | Schedule conflict |
 |U12| Apply ministry policy | tbd | Water Authority / Ministry | Dry month / water demand > Supply |
