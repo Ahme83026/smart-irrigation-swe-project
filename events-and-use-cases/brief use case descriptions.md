@@ -11,7 +11,7 @@
 |U07| Calculate season quota | the system calculates the seasonal quota for the farmers  | local farmer  | farmer registered crops |
 |U08| Notify local farmers their seasonal quota | the farmers are informed about their seasonal water quota |  Local Farmer | start of new season |
 |U09| Earn priority next season | farmers that save quota earn priority next season | local farmer | Local Farmer saved quota |
-|U10| Pay fee | farmers that exceed quota pay a fee | tbd | Local Farmer exceeds quota / Local Farmer saved quota |
+|U10| Pay fee | farmers that exceed quota pay a fee | local farmer | Local Farmer exceeds quota |
 |U11| Skip wet plot | the system suggests to skip a turn based on how wet the soil is | Smart Sensors / Local Farmer | Water passing on plots |
 |U12| Negotiate with local farmer | association head negotiates with farmers to move to allow everyone to have an appropriate schedule | Association Head / Local farmer | Schedule conflict |
 |U13| Apply ministry policy | ministry chooses a policy to apply when demand is higher than supply | Water Authority / Ministry | Dry month / water demand > Supply |
